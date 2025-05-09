@@ -49,7 +49,7 @@ python app.py
 
 ## 📁 Repository Structure
 
-<?php
+```php
 ├── app.py                      # Flask web server
 ├── translator.py               # Model initialization and translation logic
 ├── templates/
@@ -59,7 +59,7 @@ python app.py
 ├── indictransbleuchrfcomet.ipynb # Script for BLEU, chrF, COMET evaluation 
 ├── README.md                    # This file 
 └── requirements.txt             # Python dependencies
-?>
+```
 
 ## 📚 Dataset Sources
 

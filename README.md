@@ -49,22 +49,14 @@ python app.py
 
 ## 📁 Repository Structure
 
-├── app.py                      # Flask web server
-
-├── translator.py               # Model initialization and translation logic
-
-├── templates/
-
-│   └── index.html              # HTML template for web UI
-
-├── static/
-
-│   └── styles.css              # CSS styling
-
-├── indictransbleuchrfcomet.ipynb # Script for BLEU, chrF, COMET evaluation
-
-├── README.md                    # This file
-
+├── app.py                      # Flask web server 
+├── translator.py               # Model initialization and translation logic 
+├── templates/ 
+│   └── index.html              # HTML template for web UI 
+├── static/ 
+│   └── styles.css              # CSS styling 
+├── indictransbleuchrfcomet.ipynb # Script for BLEU, chrF, COMET evaluation 
+├── README.md                    # This file 
 └── requirements.txt             # Python dependencies
 
 ## 📚 Dataset Sources

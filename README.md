@@ -50,19 +50,29 @@ python app.py
 ## 📁 Repository Structure
 
 ├── app.py                      # Flask web server
+
 ├── translator.py               # Model initialization and translation logic
+
 ├── templates/
+
 │   └── index.html              # HTML template for web UI
+
 ├── static/
+
 │   └── styles.css              # CSS styling
+
 ├── indictransbleuchrfcomet.ipynb # Script for BLEU, chrF, COMET evaluation
+
 ├── README.md                    # This file
+
 └── requirements.txt             # Python dependencies
 
 ## 📚 Dataset Sources
 
 •	**IN22-Gen:** https://huggingface.co/datasets/ai4bharat/IN22-Gen
+
 •	**FLORES+**: https://huggingface.co/datasets/openlanguagedata/flores_plus
+
 •	**WMT14/WMT19**: https://huggingface.co/datasets/wmt/wmt14 and https://huggingface.co/datasets/wmt/wmt19
 
 ## 📝 Citation

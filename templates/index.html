@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1>Language Translator</h1>
+      <form method="POST">
+      <div class="translator-box">
+        <label for="from">Translate from:</label>
+        <div class="text">English</div>
+        <!-- <select class="from-lang" name="from-lang">
+          <option value="eng_Latn">English</option>
+        </select> -->
+
+        <textarea id="input-text" name="input-text" rows="1" placeholder="Enter text here...">{{ input_text }}</textarea>
+
+        <button class="translate-btn" type="submit">Translate</button>
+
+        <label for="to">Translate to:</label>
+          <select id="to-lang" name="to-lang">
+            <option value="hin_Deva" {% if tgt_lang == "hin_Deva" %}selected{% endif %}>Hindi</option>
+            <option value="guj_Gujr" {% if tgt_lang == "guj_Gujr" %}selected{% endif %}>Gujarati</option>
+          </select>
+        </form>
+
+        <!-- <p class="output-text">हमारे विद्यालय में आपका स्वागत है!</p> -->
+
+        <div class="output-text">{{ translation }}</div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

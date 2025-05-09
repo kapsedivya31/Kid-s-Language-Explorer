@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .background {
+    background-image: url('./images.jpg'); /* or use correct path */
+    background-size: 100% 100%; /* force full fit */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #fff8e7;
+    border-radius: 25px;
+    padding: 30px;
+    width: 75%; /* Increase from 350px to 80% of screen */
+    max-width: 800px; /* Prevent it from getting too wide on big screens */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #5d2c72;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .translator-box {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+  }  
+  
+  .input-text, .output-text{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    border: 1px solid #ccc;
+  }
+
+  .text{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-weight: lighter;
+    border: 1px solid #ccc;
+  }
+  
+  .translate-btn {
+    width: 60%;
+    padding: 10px 30px;
+    background-color: #f26430;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: block;
+  }
+  
+  .translate-btn:hover {
+    background-color: #d94a1f;
+  }
+  
+  select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .select-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  /* .container {
+    animation: fadeIn 0.8s ease-in-out;
+  } */
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

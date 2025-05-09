@@ -1,0 +1,12 @@
+flask
+torch
+transformers
+git+https://github.com/AI4Bharat/indicTrans.git
+setuptools>=68.2.2
+torch
+cython
+sacremoses
+sentencepiece
+transformers
+sacrebleu
+indic-nlp-library-itt
